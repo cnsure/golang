@@ -13,6 +13,8 @@ func main() {
 	case 2:
 		fmt.Println("hello ")
 	case 3:
+		fallthrough // 执行下个case
+	case 4:
 		fmt.Println("world")
 	default:
 		fmt.Println("default")
