@@ -18,3 +18,7 @@ func DoOperation(y int, f func(int, int)) {
 func decrease(a, b int) {
 	println("decrease result is:", a-b)
 }
+
+func add(a, b int) int {
+	return a + b
+}

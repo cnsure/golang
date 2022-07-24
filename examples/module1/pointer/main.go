@@ -11,8 +11,10 @@ func main() {
 	fmt.Println(str)
 	fmt.Println(pointer)
 	fmt.Println(anotherString)
+	fmt.Println(&anotherString)
 	str = "changed string"
 	fmt.Println(str)
+	fmt.Println(&str)
 	fmt.Println(pointer)
 	fmt.Println(anotherString)
 	para := ParameterStruct{Name: "aaa"}

@@ -10,13 +10,13 @@ type Human struct {
 	firstName, lastName string
 }
 
+func (h *Human) getName() string {
+	return h.firstName + "," + h.lastName
+}
+
 type Plane struct {
 	vendor string
 	model  string
-}
-
-func (h *Human) getName() string {
-	return h.firstName + "," + h.lastName
 }
 
 func (p Plane) getName() string {
